@@ -1,9 +1,7 @@
 def transformFileIntoArray(f):
-    fp = open(f)
-    array = []
-    for line_string in fp:
-        array.append(int(line_string))
-    return array
+    with open(f, "r") as f:
+        arr = [int(x.strip()) for x in f]
+    return arr
 
 def day_one_part1(f):
     two_sum = {}
