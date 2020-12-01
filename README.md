@@ -1,2 +1,4 @@
 # AdventOfCode2020
-Completing Advent of Code 2020 - Challenges
+My solutions to Advent of Code 2020
+
+Advent Of Code 2020: http://adventofcode.com/2020
